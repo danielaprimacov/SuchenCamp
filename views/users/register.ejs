@@ -1,0 +1,50 @@
+<% layout('layouts/boilerplate') %>
+    <div class="container d-flex justify-content-center align-items-center mt-3 mb-3">
+        <div class="row flex-fill">
+            <div class="col-md-6 offset-md-3 col-xl-4 offset-xl-4">
+                <div class="card shadow">
+                    <img class="card-img-top"
+                        src="https://images.unsplash.com/photo-1571814289867-d7387aa10ca9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                        alt="">
+                    <div class="card-body">
+                        <h3>Registrieren</h3>
+                        <form action="/register" novalidate class="validated-form" method="post">
+                            <div class="mb-3">
+                                <label for="username" class="form-label">Nutzername</label>
+                                <input type="text" class="form-control" id="username" name="username" required>
+                                <div class="valid-feedback">
+                                    Sieht gut aus!
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">E-mail</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                                <div class="valid-feedback">
+                                    Sieht gut aus!
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Passwort</label>
+                                <input type="password" class="form-control" id="password" name="password" required>
+                                <div class="valid-feedback">
+                                    Sieht gut aus!
+                                </div>
+                            </div>
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-success">Registrieren</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <button class="btn btn-success">Registrieren</button>
+    </form>
